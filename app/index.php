@@ -6,29 +6,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
     <body>
-        <form>
-            <p class="h1"> Calculator Test </p>
+        <form name="form" action="" method="post">
+            <p class="h1 center"> Calculator Test </p>
             <div class="container overflow-hidden text-center">
             <div class="row gx-5">
                 <div class="col">
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Number One</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="number1">Number One</label>
+                    <input type="email" class="form-control" id="number1" name="number1" placeholder="enter a value">
                 </div>
                 </div>
                 <div class="col">
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Number Two</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="number21">Number Two</label>
+                    <input type="email" class="form-control" id="number2" placeholder="enter a value">
                 </div>
                 </div>
             </div>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Answer</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="textArea" class="center">Answer</label>
+                <textarea class="form-control" id="textArea" rows="3"></textarea>
             </div>
         </form>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
