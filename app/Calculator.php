@@ -21,7 +21,7 @@
         {
             if ($num1 == 0 && $num2 == 0)
                 return (0);
-            else if ($num2 < 0)
+            else if ($num2 == 0)
                 return ($num2 / $num1);
             return ($num1 / $num2);
         }
